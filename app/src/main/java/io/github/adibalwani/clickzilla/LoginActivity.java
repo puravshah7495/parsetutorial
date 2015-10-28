@@ -45,8 +45,7 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     public void gotoSignup(View view) {
-        Intent intent = new Intent(getApplicationContext(),SignUpActivity.class);
-        startActivity(intent);
+        //Go to the sign up screen
     }
 
     public void handleLogin(View view) {
